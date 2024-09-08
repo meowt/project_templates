@@ -1,6 +1,7 @@
 package api
 
 type Package interface {
+	InitRoutes(r *Router)
 }
 
 type Config struct {
